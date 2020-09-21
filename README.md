@@ -1,2 +1,2 @@
-# classly-spoons
+# classy-spoons
 Useful tools
